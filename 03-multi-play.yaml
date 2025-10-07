@@ -9,7 +9,7 @@
 
    - name: PLAY-01 and TASK-02
      ansible.builtin.debug:
-      msg: "HELLO PLAY-01 and TASK-01"
+      msg: "HELLO PLAY-01 and TASK-02"
 
 
 - name: PLAY-02
