@@ -17,9 +17,9 @@
       msg: "Name: {{ NAME }}"
 
 # First preference is args (OR) command line
-
-# Second preference from prompt ===> vars:
-    #   NAME: from task level
+# Second preference from prompt 
+   #  vars:
+   #   NAME: from task level
 
 # Third preference from files
   # vars_files:
