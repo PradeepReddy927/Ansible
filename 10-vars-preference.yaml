@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: from play level
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: NAME
     prompt: What is your NAME?
@@ -17,4 +17,12 @@
       msg: "Name: {{ NAME }}"
 
 # First preference is args (OR) command line
-# Second preference from prompt
+
+# Second preference from prompt ===> vars:
+    #   NAME: from task level
+
+# Third preference from files
+  # vars_files:
+  # - course.yaml
+
+
