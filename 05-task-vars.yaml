@@ -7,7 +7,7 @@
    TRAINER: Sivakumar Reddy
   tasks:
   - name: print the course info
-    # vars:
-    #   COURSE: Ansible
+    vars:
+      COURSE: Ansible
     ansible.builtin.debug:
        msg: "course name is: {{ COURSE }}, duration: {{ DURATION }}, trainer: {{ TRAINER }}"
