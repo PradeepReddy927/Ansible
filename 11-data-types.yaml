@@ -16,7 +16,3 @@
   - name: print course info
     ansible.builtin.debug:
      msg:  "course name is: {{ Course }}, duration: {{ Duration }}, is it live: {{ is_live }}, tools are: {{ tools }}, concepts are: {{ concepts }}"
-
-
-
-     ANSwer:  ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 11-data-types.yaml
